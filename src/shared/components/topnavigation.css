@@ -1,0 +1,33 @@
+
+.main-navigation-button{
+    padding:3px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   background-color: transparent;
+   border: 1px solid white;
+   border-radius: 5px;
+ cursor: pointer;
+    height: 35px;
+    margin-left: 15px;
+   
+display: none;
+}
+
+.main-navigation-button span{
+    width: 30px;
+    border-bottom: 2px solid white;
+   
+}
+.side-drawer-nav{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+@media screen and (max-width:992px){
+    .main-navigation-button{
+        display: flex;
+    }
+}

@@ -1,0 +1,35 @@
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15px;
+ width: 50%;
+  
+}
+.navlinks li{
+    list-style: none;
+}
+ .nav-navlink{
+    
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: bold;
+     transition: all 0.4s ease;
+     
+
+}
+.nav-navlink:hover,
+.active{
+   background-color: var(--yellow);
+   color: var(--black);
+   padding: 3px;
+   border-radius: 3px;
+   transition: all 0.4s ease;
+}
+
+@media screen and (max-width:992px){
+     .navlinks{
+        display: none;
+    }
+     
+}

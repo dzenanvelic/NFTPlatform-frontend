@@ -1,0 +1,16 @@
+.logo-title{
+    font-family: 'Courier New', Courier, monospace;
+  
+    margin-left: 15px;
+}
+.logo-link{
+  color:var(--yellow);
+  text-decoration: none;
+}
+
+@media screen and (max-width:992px){
+    .logo-title{
+        margin-right: 15px;
+    }
+    
+}

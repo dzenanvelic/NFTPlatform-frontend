@@ -1,0 +1,64 @@
+.userSettings{
+    margin-top: 50px;
+    display: flex;
+}
+.settingsWrapper{
+    flex: 9;
+padding: 20px;
+}
+.settingsTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.settingsUpdateTitle{
+font-size: 20px;
+color: var(--gold);
+cursor: pointer;
+transition: all 0.4s ease-in-out;
+}
+.settingsUpdateTitle:hover{
+    background-color: var(--lightgray);
+   padding: 0 5px;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+    color: var(--lightergray);
+    
+}
+.settingsDeleteTitle{
+    cursor: pointer;
+    color: var(--lightRed);
+    font-size: 14px;
+}
+.setingsForm{
+    display: flex;
+    flex-direction: column;
+    
+}
+.settingsProfilePicture{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.settingsProfilePicture > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+    object-fit: cover;
+}
+.profilePicIcon{
+    width: 30px;
+    height: 30px;
+    background-color: var(--gold);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    color: var(--lightergray);
+    cursor: pointer;
+}
+.setingsForm > label{
+    margin-top: 20px;
+}

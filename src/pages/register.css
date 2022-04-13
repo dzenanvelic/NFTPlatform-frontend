@@ -1,0 +1,27 @@
+.register{
+    margin-top: 50px;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("https://images.pexels.com/photos/2156881/pexels-photo-2156881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center ;
+    background-size: cover;
+}
+.registerTitle{
+    font-size: 30px;
+    text-align: center;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    justify-content: center;
+}
+
+.registerForm > input{
+margin-bottom: 10px;
+border-radius: 10px;
+padding: 5px;
+
+}
